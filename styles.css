@@ -135,7 +135,7 @@ header a:hover {
 .Contenedor_Ciberseguridad {
 	background-image: url("Imagenes/CMD.png");
 	background-repeat: no-repeat;
-	background-size: 100% 100%;
+	background-size: cover;
 	background-position: center;
 	box-sizing: border-box;
 	width: 100%;

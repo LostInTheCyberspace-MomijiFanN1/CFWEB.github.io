@@ -25,12 +25,13 @@ function TextoEscondido() {
 const Python = document.getElementById('Python');
 function PythonFuncion(){
     Python.addEventListener('click', (event) => {
-        Python.textContent = "Lenguaje de mierda, no sabes cuanto odie aprender esta basura"
-        Python.style.color = "red"
+        Python.style.color = "red";
+        Python.style.textDecoration = "line-through";
 
         setTimeout((event) => {
             Python.style.color = "white";
-            Python.textContent = "Python"
+            Python.style.textDecoration = "none";
+            Python.textContent = "Python";
         }, 3000);
 
     });
